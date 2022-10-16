@@ -1,0 +1,468 @@
+/* GLOBAL STYLES */
+@media only screen and (min-width: 1001px){
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 80px 200px;
+}
+
+#kira{
+    background-color: white;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    column-gap: 40px;
+}
+
+#kira8{
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.kira8img{
+    width: 100%;
+}
+
+.kirahand{
+    width: 75%;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.greeting{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #000000;
+
+    padding: 360px 0px;
+    margin: 120px 0px;
+}
+
+.art-gift{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin: 120px 0px;
+}
+
+.slideshow{
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.aiart{
+    width: 100%;
+}
+.mySlides{
+    display: none;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.art-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.description{
+    font-family: 'Montserrat';
+    margin: 0px 0px 24px 0px;
+}
+h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+.drawing{
+    font-size: 16px;
+}
+
+#underwear{
+    margin: 120px 0px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.undieimg{
+    width: 100%;
+}
+#wrong-answer{
+    height: 720px;
+    margin: 120px 0px;
+}
+
+.wronganswer{
+    transform: translateY(360px);
+    position: absolute;
+    left: 200px;
+    right: 50%;
+
+    margin: 0px;
+
+    font-family: "Comic Sans MS";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.no-bitches{
+    position: absolute;
+    height: 720px;
+    left: 60%;
+}
+
+.riddle{
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    background: none;
+}
+
+#bad-answer{
+    height: 720px;
+    margin: 120px 0px;
+    text-align: center;
+}
+
+.nhu{
+    height: 720px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#try-again{
+    font-family: "Comic Sans MS";
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#right-answer{
+    height: 720px;
+    margin: 120px 0px;
+}
+
+.ricardo{
+    height: 720px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#last-gift{
+    margin: 120px 0px;
+}
+
+.euler{
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+/* Phone screen */
+@media only screen and (max-width: 1000px){
+    *{
+        box-sizing: border-box;
+    }
+    
+    body {
+        padding: 40px 80px;
+    }
+    
+    #kira{
+        background-color: white;
+        margin-bottom: 60px;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        column-gap: 40px;
+    }
+    
+    #kira8{
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px;
+    }
+    
+    .kira8img{
+        width: 100%;
+    }
+    
+    .kirahand{
+        width: 75%;
+    }
+    
+    .intro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    .greeting{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    
+        color: #000000;
+    
+        padding: 360px 0px;
+        margin: 120px 0px;
+    }
+    
+    .art-gift{
+        margin: 120px 0px;
+    }
+    
+    .slideshow{
+        box-sizing: border-box;
+        width: 70%;
+        align-self: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .aiart{
+        width: 100%;
+    }
+    .mySlides{
+        display: none;
+    }
+    
+    .nav{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .prev,
+    .next {
+      cursor: pointer;
+      width: auto;
+      padding: 16px;
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+    }
+    
+    .description{
+        font-family: 'Montserrat';
+        margin: 0px 0px 24px 0px;
+        
+    }
+    h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        color: #000000;
+        margin-top: 0px;
+        margin-bottom: 24px;
+    }
+    
+    .drawing{
+        font-size: 12px;
+    }
+    
+    #underwear{
+        margin: 120px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 40px;
+    }
+    
+    .undieimg{
+        width: 70%;
+        align-self: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #wrong-answer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        height: 720px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .wronganswer{
+    
+        margin: 0px;
+    
+        font-family: "Comic Sans MS";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+    
+        color: #000000;
+    
+    }
+    .no-bitches{
+        width: 70%;
+        align-self: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .riddle{
+        font-family: 'Courier New';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 23px;
+        color: #000000;
+        background: none;
+    }
+    
+    #bad-answer{
+        height: 720px;
+        margin: 120px 0px;
+        text-align: center;
+    }
+    
+    .nhu{
+        width: 70%;
+        align-self: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #try-again{
+        font-family: "Comic Sans MS";
+        border: none;
+        background-color: inherit;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    
+    #right-answer{
+        height: 100%;
+        margin: 120px 0px;
+    }
+    
+    .ricardo{
+        width: 100%;
+        align-self: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #last-gift{
+        margin: 120px 0px;
+    }
+    
+    .euler{
+        width: 100%;
+        align-self: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

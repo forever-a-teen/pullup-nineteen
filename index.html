@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Forever 20</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</html>
+
+<body>
+    <div id="kira8">
+        <div>
+            <img class="kira8img" src="/Static/Images/PngItem_6456751 (1).png" alt="Kira stole your hand">
+        </div>
+        <div class="intro">
+            <p>Thanks for the hand. <br>
+            Now scroll down.
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript">
+            document.getElementById("kira8").style.display = "none";
+    </script>
+    <div id="kira">
+        <div>
+            <input class="kirahand" type="image" src="static/Images/Yoshikage_Kira.png" id="take-kiras-hand" alt="Take Kira's hand">
+        </div>    
+        <div class="intro"><p>Take my hand, young lady.
+            <br>It’s your birthday, let me show you around.
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("take-kiras-hand").onclick = function() {
+            document.getElementById("kira").style.display = "none";
+            document.getElementById("kira8").style.display = "flex";
+        }
+    </script>
+
+    <div class="greeting">
+        <p>
+            Và dưới đây là các món quà cho Chi, Chi sẽ phải giải một số câu đố nếu như muốn nhận được các món quà bởi vì cuộc đời không công bằng mà và trang web này được tạo bởi 1 entp.
+        </p>
+    </div>
+
+    <div class="art-gift">
+        <div class="slideshow">
+            <div class="mySlides">
+                <img class="aiart" src="/Static/Images/blank_tradingcard.png">
+            </div>
+            <div class="mySlides">
+                <img class="aiart" src="/Static/Images/Dream_TradingCard.jpg">
+            </div>
+            <div class="mySlides">
+                <img class="aiart"  src="/Static/Images/Dream_TradingCard (1).jpg">
+            </div>
+            <div class="mySlides">
+                <img class="aiart"  src="/Static/Images/Dream_TradingCard (2).jpg">
+            </div>
+            <div class="mySlides">
+                <img class="aiart" src="/Static/Images/Dream_TradingCard (3).jpg">
+            </div>
+            <div class="mySlides">
+                <img class="aiart" src="/Static/Images/Dream_TradingCard (4).jpg">
+            </div>
+            <div class="mySlides">
+                <img class="aiart" src="/Static/Images/Dream_TradingCard (5).jpg">
+            </div>
+            <div class="mySlides">
+                <img class="aiart" src="/Static/Images/Dream_TradingCard (6).jpg">
+            </div>
+            <div class="mySlides">
+                <img class="aiart" src="/Static/Images/Dream_TradingCard (7).jpg">
+            </div>
+            <div class="nav">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("demo");
+                  let captionText = document.getElementById("caption");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                  captionText.innerHTML = dots[slideIndex-1].alt;
+                }
+                </script>
+        </div>
+
+        <div class="art-info">
+            <h2>Gift 1 - Posters to hang around your new place</h2>
+            <p class="description">Pieces of AI art made from your favorite things.</p>
+            <p class="description">Price: Free</p>
+            <pre class="drawing">
+──────(♥)(♥)(♥)────(♥)(♥)(♥) __ ɪƒ ƴσυ'ʀє αʟσηє,
+───(♥)████████(♥)(♥)█████████(♥) ɪ'ʟʟ ɓє ƴσυʀ ѕɧα∂σѡ.
+─(♥)████████████(♥)███████████(♥) ɪƒ ƴσυ ѡαηт тσ cʀƴ,
+─(♥)██████████████████████████(♥) ɪ'ʟʟ ɓє ƴσυʀ ѕɧσυʟ∂єʀ.
+───(♥)██████████████████████(♥) ɪƒ ƴσυ ѡαηт α ɧυɢ,
+──────(♥)█████████████████(♥) __ ɪ'ʟʟ ɓє ƴσυʀ ρɪʟʟσѡ.
+────────(♥)█████████████(♥) ɪƒ ƴσυ ηєє∂ тσ ɓє ɧαρρƴ,
+──────────(♥)█████████(♥) __ ɪ'ʟʟ ɓє ƴσυʀ ѕɱɪʟє.
+────────────(♥)█████(♥) ɓυт αηƴтɪɱє ƴσυ ηєє∂ α ƒʀɪєη∂,
+────────────────(♥) __ ɪ'ʟʟ ʝυѕт ɓє ɱє.
+
+            </pre>
+        </div>
+    </div>
+
+    <div id="wrong-answer">
+        <div>
+            <img class="no-bitches" src="/Static/Images/no-bitches.png" alt="No bitches?">
+        </div>
+        <div>
+            <p class="wronganswer";>WRONG ANSWER!
+            <br>NO PANTIES FOR YOU!
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("wrong-answer").style.display = "none";
+    </script>
+
+    <div id="bad-answer">
+        <img class="nhu" src="/Static/Images/nhu.png" alt="Hu!?">
+        <button id="try-again";>
+            I'll be good this time, I promise!
+        </button>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("bad-answer").style.display = "none";
+    </script>
+
+    <div id="right-answer">
+        <img class="ricardo" src="/Static/Images/panties.png" alt="Bingo!">
+    </div>
+    <script type="text/javascript">
+        document.getElementById("right-answer").style.display = "none";
+    </script>
+
+    <div id="underwear" class="underwear">
+        <div class="undie-info">
+            <h2>Gift 2 - A queen needs her crown</h2>
+            <p class="description">No one knows what the queen does with her crown, does she put it on her head? Does she sniff it to sleep? Does she use it as her mask to avoid Covid? Beats me, but if you know, do tell me. </p>
+            <p class="description">Anyway, if you answer correctly, you get an underwear I’ve worn for 4 days straight, just for you.</p>
+            <p class="description">Price: Solve the following math problem.</p>
+            <p class="riddle">If it took 6 people 9 hours to build a barn, how long would it take 12 people to build the same barn?</p>
+            <div><input id="right" class="riddle" type="button" value="0" style="margin: 0px 0px 24px 0px;"></div>
+            <div><input id="wrong" class="riddle" type="button" value="4" style="margin: 0px 0px 24px 0px;"></div>
+            <div><input id="wrong1" class="riddle" type="button" value="4.5" style="margin: 0px 0px 24px 0px;"></div>
+            <div><input id="wrong2" class="riddle" type="button" value="9" style="margin: 0px 0px 24px 0px;"></div>
+            <div><input id="bad" class="riddle" type="button" value="Just gimme the panties already!"></div>
+        </div>
+        <div>
+            <img class="undieimg" src="/Static/Images/311426615_1051413118885160_3661956716992909929_n.jpg" alt="">
+        </div>
+        <script type="text/javascript">
+            document.getElementById("wrong").onclick = function() {
+                document.getElementById("underwear").style.display = "none";
+                document.getElementById("wrong-answer").style.display = "block";
+            }
+        </script>
+
+        <script type="text/javascript">
+            document.getElementById("wrong1").onclick = function() {
+                document.getElementById("underwear").style.display = "none";
+                document.getElementById("wrong-answer").style.display = "block";
+            }
+        </script>
+
+        <script type="text/javascript">
+            document.getElementById("wrong2").onclick = function() {
+                document.getElementById("underwear").style.display = "none";
+                document.getElementById("wrong-answer").style.display = "block";
+            }
+        </script>
+
+        <script type="text/javascript">
+            document.getElementById("bad").onclick = function() {
+                document.getElementById("underwear").style.display = "none";
+                document.getElementById("bad-answer").style.display = "block";
+            }
+        </script>
+
+        <script type="text/javascript">
+            document.getElementById("try-again").onclick = function() {
+                document.getElementById("bad-answer").style.display = "none";
+                document.getElementById("underwear").style.display = "flex";
+            }
+        </script>
+
+        <script type="text/javascript">
+            document.getElementById("right").onclick = function() {
+                document.getElementById("underwear").style.display = "none";
+                document.getElementById("right-answer").style.display = "block";
+            }
+        </script>
+    </div>
+    
+    <div id="last-gift">
+        <div class="saucy">
+            <h2>Gift 3 - Choose your saucy weapon</h2>
+            <p class="description">There is a mysterious choice to be made. It’s saucy, it’s spicy, and it’s the reason why God punished Adam and Eve.</p>
+            <p class="description">What are your 2 options, you ask? Become an exit muncher, or an art collector of nude pieces inspired by yourself. </p>
+            <p class="description">Price: Solve the following riddle.</p>
+            <p class="riddle">There are 7 bridges to connect the two islands and the downstream parts of the town. Find a way to walk across each of the 7 bridges once and only once to touch every part of the town (A, B, C, D).</p>
+            <img class="euler" src="/Static/Images/puzzles-7-bridges-map-euler.jpg" alt="">
+            <p class="riddle">Hint: You are not allowed to ask any Ti/Te user or Long Vũ.</p>
+</body>
+</html>
